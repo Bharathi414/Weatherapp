@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 140px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/ebc4db2235034.560a96356930d.gif);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather{
+    text-align: center;
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: transparent;
+    background: radial-gradient(circle, rgba(19,180,193,1) 27%, rgb(95, 124, 158) 100%);
+}
+#city{
+    padding: 8px;
+}
+#search{
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+}
+#search i{
+    outline: none;
+}
+button:hover{
+    background-color: skyblue;
+}
+input{
+    border: 1px solid skyblue;
+    outline: none;
+    margin-bottom: 30px;
+}
+input:hover{
+    border: 1px solid green;
+}
+#weatherinfo{
+    /* display: none; */
+    margin-top: 30px;
+}
+h2{
+    font-size: 24px;
+    padding: 5px 0;
+    color: black;
+}
+p{
+    font-size: 18px;
+    color: black;
+    padding: 5px 0;
+}
